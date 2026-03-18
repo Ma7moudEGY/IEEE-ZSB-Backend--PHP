@@ -12,6 +12,8 @@
                                     class="<?= urlIs('/') ? "rounded-md bg-gray-950/50 px-3 py-2 text-sm font-medium text-white" : "rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white"?>">Home</a>
                                 <a href="/about"
                                     class="<?= urlIs('/about') ? "rounded-md bg-gray-950/50 px-3 py-2 text-sm font-medium text-white" : "rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white"?>">About</a>
+                                <a href="/notes" aria-current="page"
+                                    class="<?= urlIs('/notes') ? "rounded-md bg-gray-950/50 px-3 py-2 text-sm font-medium text-white" : "rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white"?>">Notes</a>
                                 <a href="/contact"
                                     class="<?= urlIs('/contact') ? "rounded-md bg-gray-950/50 px-3 py-2 text-sm font-medium text-white" : "rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white"?>">Contact</a>
                             </div>
