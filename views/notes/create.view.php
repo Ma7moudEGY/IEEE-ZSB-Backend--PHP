@@ -1,6 +1,6 @@
-<?php require "partials/header.php" ?>
-<?php require "partials/nav.php" ?>
-<?php require "partials/banner.php" ?>
+<?php require "views/partials/header.php" ?>
+<?php require "views/partials/nav.php" ?>
+<?php require "views/partials/banner.php" ?>
 
 <main>
     <form class="ml-7 mt-2 mr-7" method="POST">
@@ -28,4 +28,4 @@
 
 </main>
 
-<?php require "partials/foot.php" ?>
+<?php require "views/partials/foot.php" ?>
