@@ -33,7 +33,7 @@ if ($user) {
 }
 
 else {
-    $db->query('insert into users (email, password) values (?, ?) ', [$email, $password]);
+    $db->query('insert into users (email, password) values (?, ?) ', [$email, password_hash($password, PASSWORD_BCRYPT)]);
 
     $_SESSION['user'] = [
         'email' => $email
