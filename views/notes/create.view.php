@@ -3,7 +3,7 @@
 <?php require base_path("views/partials/banner.php") ?>
 
 <main>
-    <form class="ml-7 mt-2 mr-7" method="POST">
+    <form class="ml-7 mt-2 mr-7" method="POST" action="/notes">
     <div class="space-y-12">
         <div class="border-b border-white/10 pb-12">
             <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
