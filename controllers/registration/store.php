@@ -35,9 +35,9 @@ if ($user) {
 else {
     $db->query('insert into users (email, password) values (?, ?) ', [$email, password_hash($password, PASSWORD_BCRYPT)]);
 
-    $_SESSION['user'] = [
+    login([
         'email' => $email
-    ];
+    ]);
 
     header('location: /');
     exit();
