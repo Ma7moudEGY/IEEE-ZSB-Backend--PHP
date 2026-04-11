@@ -6,11 +6,21 @@
             "email": "mahmoudfatahalla@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "illuminate/collections": "^13.4"
+    },
     "autoload": {
         "psr-4": {
             "Core\\": "Core/",
             "Htpp\\": "Htpp/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^4.5"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
         }
     }
 }
