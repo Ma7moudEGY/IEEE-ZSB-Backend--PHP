@@ -1,0 +1,16 @@
+{
+    "name": "fathallah/ieee-zsb-backend-php",
+    "authors": [
+        {
+            "name": "Ma7moudEGY",
+            "email": "mahmoudfatahalla@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "Htpp\\": "Htpp/"
+        }
+    }
+}
